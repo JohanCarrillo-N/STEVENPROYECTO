@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de C#</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .galeria img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galería C#</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">¿Qué es C#?</a></li>
+                <li><a href="servicios.html">Características</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Explora imágenes del mundo C#</h2>
+            <p>En esta sección puedes ver imágenes de herramientas, código y entornos que utilizan el lenguaje de programación C#.</p>
+
+            <div class="galeria">
+                <img src="img/asd.jpeg" alt="Visual Studio IDE">
+                <img src="img/1.jpeg" alt="Código en C#">
+                <img src="img/23.jpeg" alt="C# en Unity">
+                <img src="img/88888.png" alt=".NET Core con C#">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sitio Web sobre C#</p>
+    </footer>
+</body>
+</html>
